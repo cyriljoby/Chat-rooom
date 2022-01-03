@@ -8,7 +8,7 @@ root.title('Chat Room')
 login_frame=Frame(root)
 login_frame.pack()
 host_name = socket.gethostname()
-host=socket.gethostbyname(host_name)
+host='192.168.7.42'
 print(host)
 port=5050
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
